@@ -7,8 +7,8 @@ Untuk mengatasi hal tersebut manajer departemen HR meminta bantuan untuk mengide
 
 ### Permasalahan Bisnis
 Permasalahan bisnis yang sedang dihadapi Jaya Jaya Maju adalah : 
-1. Tingginya angka attrition rate, namun tidak diketahui faktor-faktor utamanya.
-2. Ketiadaan business dashboard yang dapat digunakan HR untuk memonitor kondisi karyawan secara real-time dan terstruktur.
+1. Belum teridentifikasinya faktor-faktor determinan yang menjadi pemicu utama tingginya attrition rate.
+2. Ketiadaan business dashboard yang dapat digunakan HR untuk memonitor kondisi karyawan.
 
 ### Cakupan Proyek
 Cakupan proyek yang akan dikerjakan meliputi :
@@ -17,7 +17,7 @@ Cakupan proyek yang akan dikerjakan meliputi :
 3. Data Preparation: Melakukan pembersihan data, encoding variabel kategori, pemilihan fitur selection menggunakan Embedded Methods, penyeimbangan data menggunakan teknik SMOTE, dan standarisasi fitur agar siap diproses oleh model.
 4. Modelling: Membangun model prediksi klasifikasi menggunakan algoritma Random Forest untuk mempelajari karakteristik karyawan yang cenderung mengundurkan diri.
 5. Evaluation: Menguji performa model menggunakan metrik Accuracy, Precision, Recall, dan F1-Score untuk memastikan keandalan prediksi sebelum diterapkan.
-6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition secara real-time.
+6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition.
 
 ### Persiapan
 Sumber data : ([Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee))
