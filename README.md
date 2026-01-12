@@ -2,6 +2,7 @@
 
 ### Business Understanding
 Jaya Jaya Maju adalah perusahaan multinasional yang telah beroperasi sejak tahun 2000 dengan tenaga kerja mencapai lebih dari 1000 karyawan di seluruh penjuru negeri. Saat ini Jaya Jaya Maju menghadapi tantangan serius berupa tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Angka ini mencerminkan adanya permasalahan dalam manajemen retensi yang berpotensi menyebabkan kerugian finansial akibat biaya rekrutmen ulang serta penurunan produktivitas organisasi.
+
 Untuk mengatasi hal tersebut manajer departemen HR meminta bantuan untuk mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate. Selain itu, ia juga meminta untuk membuat business dashboard untuk membantu memonitori berbagai faktor tersebut.
 
 ### Permasalahan Bisnis
