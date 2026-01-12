@@ -18,7 +18,7 @@ Cakupan proyek yang akan dikerjakan meliputi :
 5. Evaluation: Menguji performa model menggunakan metrik Accuracy, Precision, Recall, dan F1-Score untuk memastikan keandalan prediksi sebelum diterapkan.
 6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition secara real-time.
 
-### Sumber Data
+### Persiapan
 Sumber data : ([Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee))
 
 
