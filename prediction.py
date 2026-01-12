@@ -60,6 +60,6 @@ if st.button("Cek Status Karyawan"):
     prob = model.predict_proba(final_df)[0]
 
     if res == 0:
-        st.success(f"HASIL: TETAP BERTAHAN (Stay) - Probabilitas: {prob[0]:.2%}")
+        st.success(f"HASIL : TETAP BERTAHAN (Stay) - Probabilitas: {prob[0]:.2%}")
     else:
-        st.error(f"HASIL: BERPOTENSI RESIGN - Probabilitas: {prob[1]:.2%}")
+        st.error(f"HASIL : BERPOTENSI ATTRITION - Probabilitas: {prob[1]:.2%}")
