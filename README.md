@@ -1,13 +1,24 @@
 ## Proyek Akhir: Menyelesaikan Permasalahan departemen Human Resources (HR)
 
 ### Business Understanding
-Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. 
-
-Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%.
-
-Untuk mencegah hal ini semakin parah, manajer departemen HR ingin meminta bantuan Anda mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut. Selain itu, ia juga meminta Anda untuk membuat business dashboard untuk membantunya memonitori berbagai faktor tersebut.
+Jaya Jaya Maju adalah perusahaan multinasional yang telah beroperasi sejak tahun 2000 dengan tenaga kerja mencapai lebih dari 1000 karyawan di seluruh penjuru negeri. Saat ini Jaya Jaya Maju menghadapi tantangan serius berupa tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Angka ini mencerminkan adanya permasalahan dalam manajemen retensi yang berpotensi menyebabkan kerugian finansial akibat biaya rekrutmen ulang serta penurunan produktivitas organisasi.
+Untuk mengatasi hal tersebut manajer departemen HR meminta bantuan untuk mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate. Selain itu, ia juga meminta untuk membuat business dashboard untuk membantu memonitori berbagai faktor tersebut.
 
 ### Permasalahan Bisnis
-Faktor yang mempengaruhi tingginya attiration rate antara lain :
+Permasalahan bisnis yang sedang dihadapi Jaya Jaya Maju adalah : 
+1. Tingginya angka attrition rate, namun tidak diketahui faktor-faktor utamanya.
+2. Ketiadaan business dashboard yang dapat digunakan HR untuk memonitor kondisi karyawan secara real-time dan terstruktur.
 
-1. 
+### Cakupan Proyek
+Cakupan proyek yang akan dikerjakan meliputi :
+1. Business Understanding: Mengidentifikasi pola dan faktor penyebab tingginya attrition rate serta merumuskan strategi penanganan dampaknya terhadap perusahaan.
+2. Data Understanding: Melakukan eksplorasi data awal (EDA) untuk memeriksa kualitas data, mendeteksi nilai yang hilang (missing values), duplikasi data, serta melihat korelasi antar variabel karyawan.
+3. Data Preparation: Melakukan pembersihan data, encoding variabel kategori, penyeimbangan data menggunakan teknik SMOTE, dan standarisasi fitur agar siap diproses oleh model.
+4. Modelling: Membangun model prediksi klasifikasi menggunakan algoritma Random Forest untuk mempelajari karakteristik karyawan yang cenderung mengundurkan diri.
+5. Evaluation: Menguji performa model menggunakan metrik Accuracy, Precision, Recall, dan F1-Score untuk memastikan keandalan prediksi sebelum diterapkan.
+6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition secara real-time.
+
+### Sumber Data
+Sumber data : ([Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv))
+
+
