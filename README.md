@@ -19,6 +19,6 @@ Cakupan proyek yang akan dikerjakan meliputi :
 6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition secara real-time.
 
 ### Sumber Data
-Sumber data : ([Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv))
+Sumber data : ([Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee))
 
 
