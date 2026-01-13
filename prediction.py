@@ -46,7 +46,7 @@ if st.button("Cek Status Karyawan"):
         "StockOptionLevel": stock_option_level,
         "TotalWorkingYears": total_working_years,
         "YearsAtCompany": years_at_company,
-        "OverTime_Yes": 1 if overtime == "Yes" else 0,
+        "OverTime_Yes": overtime,
     }])
 
     # Preprocessing agar sesuai dengan 'feature_names_in_'
