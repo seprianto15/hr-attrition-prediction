@@ -46,20 +46,29 @@ if st.button("Cek Status Karyawan"):
         "StockOptionLevel": stock_option_level,
         "TotalWorkingYears": total_working_years,
         "YearsAtCompany": years_at_company,
-        "OverTime_Yes": overtime,
+        "OverTime_Yes": 1 if overtime == "Yes" else 0,
     }])
 
-    # Preprocessing agar sesuai dengan 'feature_names_in_'
-    df_encoded = pd.get_dummies(df)
-    
+    # Memastikan semua kolom yang diminta model ada di DataFrame
+    for col in features:
+        if col not in df.columns:
+            df[col] = 0  # Diisi dengan 0 jika fitur tersebut tidak diinput user
+
     # Urutkan kolom
-    final_df = df_encoded[features]
+    final_df = df[features]
 
-    # Prediksi
-    res = model.predict(final_df)[0]
-    prob = model.predict_proba(final_df)[0]
+    # Eksekusi prediksi
+    try:
+        res = model.predict(final_df)[0]
+        prob = model.predict_proba(final_df)[0]
 
-    if res == 0:
-        st.success(f"HASIL : TETAP BERTAHAN (STAY) - Probabilitas: {prob[0]:.2%}")
-    else:
-        st.error(f"HASIL : BERPOTENSI ATTRITION - Probabilitas: {prob[1]:.2%}")
+        st.divider()
+        if res == 0:
+            st.success(f"### 🎉 HASIL: TETAP BERTAHAN (Stay)")
+            st.write(f"Probabilitas: **{prob[0]:.2%}**")
+        else:
+            st.error(f"### ⚠️ HASIL: BERPOTENSI ATTRITION (Leave)")
+            st.write(f"Probabilitas: **{prob[1]:.2%}**")
+
+    except Exception as e:
+        st.error(f"Terjadi kesalahan saat prediksi: {e}")
