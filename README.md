@@ -29,5 +29,5 @@ Cakupan proyek yang akan dikerjakan meliputi :
 Link dashboard use metabase :
 ([Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f))
 
-Pada pembuatan business dashboard 
+
 
