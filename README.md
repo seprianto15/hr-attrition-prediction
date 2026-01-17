@@ -29,5 +29,18 @@ Cakupan proyek yang akan dikerjakan meliputi :
 Link dashboard use metabase :
 ([Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f))
 
-
+Dashboard ini dirancang untuk membantu Departemen HR dalam mengidentifikasi pola dan faktor-faktoryang memicu terjadinya attrition. Melalui visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk meningkatkan retensi karyawan.
+1. Total Employee : Menampilkan jumlah total karyawan 
+2. Employee Active : Menampilkan jumlah karyawan aktif
+3. Attrition : Menampilkan jumlah karyawan yang keluar
+4. Attrition Rate : Menampilkan percentage dari jumlah karyawan yang keluar
+5. Attrition Count by Gender : Menampilkan visualisasi bentuk pie chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan jenis kelamin.
+6. Attrition Count by Department : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar di setiap departemen.
+7. Attrition Count by Age : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan umur.
+8. Attrition Count by Job Level : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan level pekerjaan.
+9. Attrition Count by Monthly Income Grade : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan pendapatan perbulan sesuai dengan golongan.
+10. Attrition Count by Overtime : Menampilkan visualisasi dalam bentuk pie chart untuk mengidentifikasi jumlah karyawan yang keluar karena sering overtime.
+11. Attrition Count by Total Working by Years : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan lamanya bekerja.
+12. Attrition Count by WLB : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentikasi apakah ada pengaruh work life balance terhadap karyawan yang keluar.
+13. Attrition Count by Distance From Home : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi apakah ada pengaruh jarak rumah ke kantor pada karyawan yang sudah keluar.
 
