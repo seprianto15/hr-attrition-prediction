@@ -28,7 +28,7 @@ Cakupan proyek yang akan dikerjakan meliputi :
 Link dashboard :
 [Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
-![Teks Alternatif](sketsa_dashboard.png)
+![Sketasa Dashboard](sketsa_dashboard.png)
 
 Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
