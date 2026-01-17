@@ -21,13 +21,13 @@ Cakupan proyek yang akan dikerjakan meliputi :
 
 ### Persiapan
 #### Sumber data : 
-([Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee))
+[Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 #### Setup environment : 
 
 ### Business Dashboard
 Link dashboard :
-([Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f))
+[Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
 Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
