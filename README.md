@@ -30,17 +30,31 @@ Link dashboard use metabase :
 ([Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f))
 
 Dashboard ini dirancang untuk membantu Departemen HR dalam mengidentifikasi pola dan faktor-faktoryang memicu terjadinya attrition. Melalui visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk meningkatkan retensi karyawan.
-1. Total Employee : Menampilkan jumlah total karyawan 
-2. Employee Active : Menampilkan jumlah karyawan aktif
-3. Attrition : Menampilkan jumlah karyawan yang keluar
-4. Attrition Rate : Menampilkan percentage dari jumlah karyawan yang keluar
-5. Attrition Count by Gender : Menampilkan visualisasi bentuk pie chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan jenis kelamin.
-6. Attrition Count by Department : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar di setiap departemen.
-7. Attrition Count by Age : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan umur.
-8. Attrition Count by Job Level : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan level pekerjaan.
-9. Attrition Count by Monthly Income Grade : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan pendapatan perbulan sesuai dengan golongan.
-10. Attrition Count by Overtime : Menampilkan visualisasi dalam bentuk pie chart untuk mengidentifikasi jumlah karyawan yang keluar karena sering overtime.
-11. Attrition Count by Total Working by Years : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi jumlah karyawan yang keluar berdasarkan lamanya bekerja.
-12. Attrition Count by WLB : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentikasi apakah ada pengaruh work life balance terhadap karyawan yang keluar.
-13. Attrition Count by Distance From Home : Menampilkan visualisasi dalam bentuk bar chart untuk mengidentifikasi apakah ada pengaruh jarak rumah ke kantor pada karyawan yang sudah keluar.
+
+Total Employees: Menampilkan jumlah keseluruhan karyawan dalam organisasi.
+
+Active Employees: Menampilkan jumlah karyawan yang saat ini masih aktif bekerja.
+
+Attrition Count: Menampilkan jumlah total karyawan yang telah meninggalkan perusahaan.
+
+Attrition Rate: Menampilkan persentase tingkat perputaran karyawan (turnover) dibandingkan dengan total karyawan.
+
+Visualisasi Analitik (Breakdown):
+Attrition by Gender: Visualisasi Pie Chart untuk mengidentifikasi kecenderungan tingkat pengunduran diri berdasarkan jenis kelamin.
+
+Attrition by Department: Visualisasi Bar Chart untuk memetakan departemen mana yang memiliki tingkat pengunduran diri tertinggi.
+
+Attrition by Age Group: Visualisasi Bar Chart untuk melihat distribusi attrition berdasarkan kelompok usia karyawan.
+
+Attrition by Job Level: Visualisasi Bar Chart untuk menganalisis hubungan antara jenjang jabatan dengan keputusan karyawan untuk keluar.
+
+Attrition by Monthly Income Grade: Visualisasi Bar Chart untuk mengidentifikasi apakah tingkat pendapatan berdasarkan golongan memengaruhi retensi karyawan.
+
+Attrition by Overtime Status: Visualisasi Pie Chart untuk menganalisis pengaruh kebijakan lembur terhadap keputusan pengunduran diri.
+
+Attrition by Tenure (Total Working Years): Visualisasi Bar Chart untuk melihat korelasi antara lamanya masa kerja dengan tingkat pengunduran diri.
+
+Attrition by Work-Life Balance (WLB) Rating: Visualisasi Bar Chart untuk mengukur sejauh mana keseimbangan kehidupan kerja memengaruhi loyalitas karyawan.
+
+Attrition by Distance From Home: Visualisasi Bar Chart untuk mengidentifikasi pengaruh jarak tempuh dari rumah ke kantor terhadap tingkat attrition.
 
