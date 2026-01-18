@@ -22,7 +22,7 @@ Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tool seper
 ### Persiapan
 #### Sumber data : [Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv)
 
-#### **Setup environment - Anaconda : **
+**Setup environment - Anaconda : **
 conda create --name attrition-rate python=3.13
 conda activate attrition-rate
 pip freeze > requirements.txt
