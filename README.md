@@ -11,7 +11,7 @@ Permasalahan bisnis yang sedang dihadapi Jaya Jaya Maju adalah :
 2. Ketiadaan business dashboard yang dapat digunakan HR untuk memonitor kondisi karyawan.
 
 ### Cakupan Proyek
-Proyek ini berfokus pada pengolahan data historis seluruh karyawan yang bersumber dari Departemen HR. Lingkup pekerjaan utama meliputi transformasi data menjadi business dashboard untuk mengidentifikasi berbagai faktor pemicu attrition, serta menerapkan sistem  berbasis machine learning untuk memprediksi probabilitas attrition secara akurat.
+Proyek ini berfokus pada pengolahan data historis seluruh karyawan yang bersumber dari Departemen HR. Lingkup pekerjaan utama meliputi transformasi data menjadi business dashboard untuk mengidentifikasi berbagai faktor pemicu attrition, serta menerapkan sistem  berbasis machine learning untuk memprediksi probabilitas attrition.
 Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tool seperti berikut :
 1. Bahasa pemrograman Python sebagai tool utama dalam proyek ini.
 2. Berbagai library pendukung untuk pengolahan data dan pengembangan model machine learning.
@@ -29,7 +29,12 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 
 #### Setup environment - Metabase :
+docker run -p 3001:3000 --name dashboard metabase/metabase
+docker cp dashboard:/metabase.db/metabase.db.mv.db ./
 
+Kredensial akun metabase :
+* email : root@mail.com
+* password : root123
 
 ### Business Dashboard
 Link HR Analytics Dashboard : 
