@@ -3,9 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model yang sudah dituning
- 
-url = 'https://github.com/seprianto15/hr-attrition-prediction/blob/652692502ecae0e496c72411d457312fe32b851e/rf_model_tuned.pkl'
-model = joblib.load(url)
+model = joblib.load('rf_model_tuned.pkl')
 
 # Ambil nama fitur dari model
 features = model.feature_names_in_
