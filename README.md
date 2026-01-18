@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Business Dashboard
 Link HR Analytics Dashboard : 
-[Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
+[Dashboard_Metabase](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
 #### HR Analytics Dashboard Built with Metabase
 
