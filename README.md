@@ -22,7 +22,7 @@ Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tool seper
 ### Persiapan
 #### Sumber data : [Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv)
 
-#### Setup environment - Anaconda : 
+#### **Setup environment - Anaconda : **
 conda create --name attrition-rate python=3.13
 conda activate attrition-rate
 pip freeze > requirements.txt
@@ -37,8 +37,8 @@ docker cp dashboard:/metabase.db/metabase.db.mv.db ./
 * password : root123
 
 # Setup environment - Streamlit :
-`pip install streamlit babel`
-`streamlit run prediction.py`
+pip install streamlit babel
+streamlit run prediction.py
 
 ### Business Dashboard
 Link HR Analytics Dashboard : 
