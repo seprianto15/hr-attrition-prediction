@@ -20,7 +20,7 @@ Cakupan proyek yang akan dikerjakan meliputi :
 6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition.
 
 ### Persiapan
-#### Sumber data : [Dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
+#### Sumber data : [Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv)
 
 #### Setup environment : 
 
@@ -48,6 +48,8 @@ Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 12. Attrition Count by WLB: Visualisasi Bar Chart untuk mengukur sejauh mana keseimbangan kehidupan kerja memengaruhi attrition.
 13. Attrition by Distance From Home: Visualisasi Bar Chart untuk mengidentifikasi pengaruh jarak tempuh dari rumah ke kantor terhadap attrition.
 
-Diharapkan dengan dibuatnya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
+Diharapkan dengan adanya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
 
 ##### Used Streamlit
+
+
