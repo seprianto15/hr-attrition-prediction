@@ -25,6 +25,7 @@ Cakupan proyek yang akan dikerjakan meliputi :
 #### Setup environment - Anaconda : 
 conda create --name attrition-rate python=3.13
 conda activate attrition-rate
+pip freeze > requirements.txt
 pip install -r requirements.txt
 
 ### Business Dashboard
