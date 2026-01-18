@@ -32,9 +32,13 @@ pip install -r requirements.txt
 docker run -p 3001:3000 --name dashboard metabase/metabase
 docker cp dashboard:/metabase.db/metabase.db.mv.db ./
 
-Kredensial akun metabase :
+#### Kredensial akun - Metabase :
 * email : root@mail.com
 * password : root123
+
+# Setup environment - Streamlit :
+`pip install streamlit babel`
+`streamlit run prediction.py`
 
 ### Business Dashboard
 Link HR Analytics Dashboard : 
