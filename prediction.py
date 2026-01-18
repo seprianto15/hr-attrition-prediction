@@ -3,13 +3,15 @@ import pandas as pd
 import joblib
 
 # Load model yang sudah dituning
-model = joblib.load('rf_model_tuned.pkl')
+ 
+url = 'https://github.com/seprianto15/hr-attrition-prediction/blob/652692502ecae0e496c72411d457312fe32b851e/rf_model_tuned.pkl'
+model = joblib.load(url)
 
 # Ambil nama fitur dari model
 features = model.feature_names_in_
 
 # Judul dan deskripsi dashboard
-st.title('📊 Employee Attrition Prediction Dashboard')
+st.title('📊 HR Analytics: Predictive Attrition Dashboard')
 st.markdown('Dashboard ini hanya fokus pada 11 variabel (berdasarkan nilai Feature Importance) yang memicu terjadinya attrition')
 
 # Set two columns for input

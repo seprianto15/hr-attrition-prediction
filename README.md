@@ -28,7 +28,9 @@ Cakupan proyek yang akan dikerjakan meliputi :
 Link dashboard : 
 [Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
-Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. 
+#### HR Analytics Dashboard
+
+HR Analytics Dashboard ini dirancang dalam bentuk visualisasi chart/grafik untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. 
 
 ![Dashboard](seprianto15-dashboard.png)
 
@@ -50,6 +52,7 @@ Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
 Diharapkan dengan adanya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
 
-##### Used Streamlit
+#### HR Analytics: Predictive Attrition Dashboard
+
 
 
