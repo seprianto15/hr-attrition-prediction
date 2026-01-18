@@ -59,7 +59,7 @@ Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
 Diharapkan dengan adanya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
 
-#### HR Analytics: Predictive Attrition Dashboard Built with Streamlit
+### HR Analytics: Predictive Attrition Dashboard Built with Streamlit
 
 Link Predictive Attrition Dashboard : [Dashboard_Streamlit](https://prediction-hr.streamlit.app)
 
