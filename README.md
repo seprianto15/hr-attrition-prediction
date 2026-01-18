@@ -36,7 +36,7 @@ Link HR Analytics Dashboard :
 
 HR Analytics Dashboard ini dirancang dalam bentuk visualisasi chart/grafik untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. 
 
-![Dashboard](seprianto15-dashboard.png)
+![Dashboard_Metabase](seprianto15-dashboard.png)
 
 Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
@@ -58,7 +58,7 @@ Diharapkan dengan adanya visualisasi data ini, perusahaan dapat mengambil langka
 
 #### HR Analytics: Predictive Attrition Dashboard Built with Streamlit
 
-Link Predictive Attrition Dashboard : 
+Link Predictive Attrition Dashboard : [Dashboard_Streamlit](https://prediction-hr.streamlit.app)
 
 Dashboard ini dirancang untuk mengotomatisasi prediksi attrition berbasis machine learning guna menghasilkan wawasan preventif yang lebih akurat daripada sekadar visualisasi data statis yang telah dibuat sebelumnya.
 
