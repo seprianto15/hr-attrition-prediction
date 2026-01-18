@@ -22,13 +22,16 @@ Cakupan proyek yang akan dikerjakan meliputi :
 ### Persiapan
 #### Sumber data : [Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv)
 
-#### Setup environment : 
+#### Setup environment - Anaconda : 
+conda create --name attrition-rate python=3.13
+conda activate attrition-rate
+pip install -r requirements.txt
 
 ### Business Dashboard
-Link dashboard : 
+Link HR Analytics Dashboard : 
 [Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
-#### HR Analytics Dashboard
+#### HR Analytics Dashboard Built with Metabase
 
 HR Analytics Dashboard ini dirancang dalam bentuk visualisasi chart/grafik untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. 
 
@@ -52,7 +55,31 @@ Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
 Diharapkan dengan adanya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
 
-#### HR Analytics: Predictive Attrition Dashboard
+#### HR Analytics: Predictive Attrition Dashboard Built with Streamlit
 
+Link Predictive Attrition Dashboard : 
 
+Dashboard ini dirancang untuk mengotomatisasi prediksi attrition berbasis machine learning guna menghasilkan wawasan preventif yang lebih akurat daripada sekadar visualisasi data statis yang telah dibuat sebelumnya.
 
+### Conclusion
+Proyek ini dirancang untuk membantu department HR dalam mengidentifikasi faktor-faktor yang memicu terjadinya attrition.
+Melalui integrasi business dashboard dan analisis prediktif, ditemukan bahwa :
+* Terdapat 179 karyawan atau 12% dari total karyawan telah meninggalkan perusahaan. 
+* Gender : Karyawan laki-laki lebih mendominasi angka attrition dengan persentase 60% (108 karyawan) dibandingkan wanita yang sebesar 40%.
+* Departemen : Departemen Research & Development mencatatkan angka attrition tertinggi, yaitu sebanyak 107 karyawan telah meninggalkan perusahaan.
+* Age : Karyawan berumur 26-35 tahun paling mendominasi angka attrition yaitu sebanyak 78 karyawan telah meninggalkan perusahaan.
+* Job Level : Attrition paling tinggi ditemukan pada tingkat Entry Level, dimana tercatat sebanyak 108 karyawan telah meninggalkan perusahaan.
+* Monthly Income Grade : Berdasarkan skala pendapatan bulanan, angka attrition tertinggi berasal dari kelompok grade 1 /berpenghasilan rendah (low income), dengan total 104 karyawan telah meninggalkan perusahaan.
+* Overtime : Attirion paling tinggi ditemukan pada karyawan yang sering melakukan lembur yaitu sebanyak 98 karyawan telah meninggalkan perusahaan.
+* Total Working Years : Karyawan yang sudah bekerja 6-10 tahun lamanya paling mendominasi attrition yaitu sebanyak 72 karyawan telah meninggalkan perusahaan
+* Work Life Balance (WLB) : Tingkat attrition yang dipicu oleh faktor Work-Life Balance tergolong rendah, yaitu hanya mencakup 18 karyawan telah meninggalkan perusahaan.
+* Distance From Home : Faktor jarak rumah ke kantor memiliki pengaruh yang paling minimal terhadap attrition, dimana hanya tercatat 10 karyawan yang mengundurkan diri dengan alasan jarak tempuh yang jauh.
+
+### Rekomendasi Action Items
+Berikut ini adalah rekomendasi yang dapat diterapkan untuk menekan tingkat attrition :
+1. Optimalisasi Gaji dan Benefit
+Melakukan peninjauan kembali terhadap struktur gaji dan paket tunjangan agar tetap kompetitif di pasar industri guna meningkatkan kepuasan serta loyalitas karyawan.
+2. Penguatan Program Career Path
+Menyelenggarakan program pelatihan berkelanjutan dan pemetaan jalur karier yang jelas untuk memberikan prospek pertumbuhan jangka panjang bagi karyawan.
+3. Evaluasi dan Restrukturisasi Kebijakan Lembur (Overtime)
+Menerapkan sistem pembagian tugas yang lebih merata untuk meminimalisir ketergantungan pada jam kerja tambahan.
