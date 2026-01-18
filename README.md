@@ -11,13 +11,13 @@ Permasalahan bisnis yang sedang dihadapi Jaya Jaya Maju adalah :
 2. Ketiadaan business dashboard yang dapat digunakan HR untuk memonitor kondisi karyawan.
 
 ### Cakupan Proyek
-Cakupan proyek yang akan dikerjakan meliputi :
-1. Business Understanding: Mengidentifikasi pola dan faktor penyebab tingginya attrition rate serta merumuskan strategi penanganan dampaknya terhadap perusahaan.
-2. Data Understanding: Melakukan eksplorasi data awal (EDA) untuk memeriksa kualitas data, mendeteksi nilai yang hilang (missing values), duplikasi data, serta melihat korelasi antar variabel karyawan.
-3. Data Preparation: Melakukan pembersihan data, encoding variabel kategori, pemilihan fitur selection menggunakan Embedded Methods, penyeimbangan data menggunakan teknik SMOTE, dan standarisasi fitur agar siap diproses oleh model.
-4. Modelling: Membangun model prediksi klasifikasi menggunakan algoritma Random Forest untuk mempelajari karakteristik karyawan yang cenderung mengundurkan diri.
-5. Evaluation: Menguji performa model menggunakan metrik Accuracy, Precision, Recall, dan F1-Score untuk memastikan keandalan prediksi sebelum diterapkan.
-6. Deployment: Mengembangkan antarmuka prediksi berbasis Streamlit dan Business Dashboard sebagai alat bantu manajemen HR dalam memantau risiko attrition.
+Proyek ini berfokus pada pengolahan data historis seluruh karyawan yang bersumber dari Departemen HR. Lingkup pekerjaan utama meliputi transformasi data menjadi business dashboard untuk mengidentifikasi berbagai faktor pemicu attrition, serta menerapkan sistem  berbasis machine learning untuk memprediksi probabilitas attrition secara akurat.
+Berdasarkan cakupan proyek tersebut, dibutuhkan beberapa resource dan tool seperti berikut :
+1. Bahasa pemrograman Python sebagai tool utama dalam proyek ini.
+2. Berbagai library pendukung untuk pengolahan data dan pengembangan model machine learning.
+3. Metabase sebagai tool yang digunakan untuk membuat business dashboard.
+4. Supabase dengan engine PostgreSQL sebagai DBMS utama untuk mendukung pengelolaan data pada business dashboard
+5. Streamlit sebagai tool yang digunakan untuk membuat sebuah prototype sederhana.
 
 ### Persiapan
 #### Sumber data : [Dataset](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/refs/heads/main/employee/employee_data.csv)
@@ -27,6 +27,9 @@ conda create --name attrition-rate python=3.13
 conda activate attrition-rate
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+#### Setup environment - Metabase :
+
 
 ### Business Dashboard
 Link HR Analytics Dashboard : 
