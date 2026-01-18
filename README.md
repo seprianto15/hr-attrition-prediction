@@ -25,9 +25,11 @@ Cakupan proyek yang akan dikerjakan meliputi :
 #### Setup environment : 
 
 ### Business Dashboard
-Link dashboard :
+#### Used Metabase
+Link dashboard : 
 [Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
-![Sketsa Dashboard](seprianto15-dashboard.png)
+
+![Dashboard](seprianto15-dashboard.png)
 
 Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
@@ -46,3 +48,5 @@ Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-f
 13. Attrition by Distance From Home: Visualisasi Bar Chart untuk mengidentifikasi pengaruh jarak tempuh dari rumah ke kantor terhadap attrition.
 
 Diharapkan dengan dibuatnya visualisasi data ini, perusahaan dapat mengambil langkah strategis untuk dapat mengurangi attrition atau meningkatkan retensi karyawan.
+
+#### Used Streamlit
