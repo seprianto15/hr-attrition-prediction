@@ -28,10 +28,11 @@ Cakupan proyek yang akan dikerjakan meliputi :
 Link dashboard : 
 [Dashboard](http://localhost:3001/public/dashboard/32dd819b-91f3-41b7-bf04-fcac689d988f)
 
-##### HR Analytics Dashboard Built with Metabase
+##### HR Analytics Dashboard
+Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. 
 ![Dashboard](seprianto15-dashboard.png)
 
-Dashboard dirancang untuk membantu Departemen HR dalam mengidentifikasi faktor-faktor yang mempengaruhi atau memicu terjadinya attrition. Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
+Adapun bentuk visualisasi yang telah dibuat pada dashboard ini meliputi :
 
 1. Total Employee: Menampilkan jumlah keseluruhan karyawan dalam perusahaan.
 2. Employee Active: Menampilkan jumlah karyawan yang saat ini masih aktif bekerja.
